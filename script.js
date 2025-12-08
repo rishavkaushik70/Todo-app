@@ -5,7 +5,7 @@ const button = document.querySelector(".btn")
 
 button.addEventListener("click", (e)=>{
     if(inputBox.value === ''){
-        alert("you must write something !!")
+        alert("You must write something !!")
     }else{
         const li = document.createElement("li")
         li.innerHTML = inputBox.value;
